@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background: $primary;
+  border-bottom: 5px solid $black;
+}
+
+.header .logo {
+  max-width: 200px;
+}
+
+.header img {
+  max-width: 100%;
+  display: block;
+}

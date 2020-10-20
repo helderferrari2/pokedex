@@ -1,0 +1,109 @@
+.badge {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  margin-right: 5px;
+}
+
+.badge-outline {
+  color: $primary;
+  background-color: transparent;
+  background-image: none;
+  border-color: $primary;
+}
+
+.badge-group-sm > .badge,
+.badge-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+.badge-fire {
+  color: $fire !important;
+  border-color: $fire !important;
+}
+
+.badge-grass {
+  color: $grass !important;
+  border-color: $grass !important;
+}
+
+.badge-electric {
+  color: $electric !important;
+  border-color: $electric !important;
+}
+
+.badge-water {
+  color: $water !important;
+  border-color: $water !important;
+}
+
+.badge-ground {
+  color: $ground !important;
+  border-color: $ground !important;
+}
+
+.badge-rock {
+  color: $rock !important;
+  border-color: $rock !important;
+}
+
+.badge-fairy {
+  color: $fairy !important;
+  border-color: $fairy !important;
+}
+
+.badge-poison {
+  color: $poison !important;
+  border-color: $poison !important;
+}
+
+.badge-bug {
+  color: $bug !important;
+  border-color: $bug !important;
+}
+
+.badge-dragon {
+  color: $dragon !important;
+  border-color: $dragon !important;
+}
+
+.badge-psychic {
+  color: $psychic !important;
+  border-color: $psychic !important;
+}
+
+.badge-flying {
+  color: $flying !important;
+  border-color: $flying !important;
+}
+
+.badge-fighting {
+  color: $fighting !important;
+  border-color: $fighting !important;
+}
+
+.badge-normal {
+  color: $normal !important;
+  border-color: $normal !important;
+}
+
+.badge-ghost {
+  color: $ghost !important;
+  border-color: $ghost !important;
+}
+
+.badge-ice {
+  color: $ice !important;
+  border-color: $ice !important;
+}

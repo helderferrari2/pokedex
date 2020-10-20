@@ -1,0 +1,58 @@
+[
+  {
+    "id": [1, 2, 3],
+    "evolution_tree": [
+      {
+        "id": "1",
+        "name": "bulbasaur",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/1.png"
+      },
+      {
+        "id": "2",
+        "name": "ivysaur",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/2.png"
+      },
+      {
+        "id": "3",
+        "name": "venusaur",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/3.png"
+      }
+    ]
+  },
+  {
+    "id": [4, 5, 6],
+    "evolution_tree": [
+      {
+        "id": "4",
+        "name": "charmander",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/4.png"
+      },
+      {
+        "id": "5",
+        "name": "charmeleon",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/5.png"
+      },
+      {
+        "id": "6",
+        "name": "charizard",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/6.png"
+      }
+    ]
+  },
+
+  {
+    "id": [19, 20],
+    "evolution_tree": [
+      {
+        "id": "19",
+        "name": "rattata",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/19.png"
+      },
+      {
+        "id": "20",
+        "name": "raticate",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/20.png"
+      }
+    ]
+  }
+]

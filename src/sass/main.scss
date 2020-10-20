@@ -1,0 +1,17 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+//Default
+@import "./variables";
+@import "./default";
+@import "./layout";
+@import "~bootstrap/scss/bootstrap";
+
+//Components
+@import "./components/header";
+@import "./components/footer";
+@import "./components/home";
+@import "./components/card";
+@import "./components/details";
+@import "./components/badge";
+@import "./components/helper";
