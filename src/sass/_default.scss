@@ -1,0 +1,27 @@
+// * {
+//   margin: 0;
+//   padding: 0;
+//   outline: 0;
+//   box-sizing: border-box;
+// }
+
+html,
+body,
+#App {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: $text !important;
+}
+
+ul {
+  list-style-type: none;
+}
