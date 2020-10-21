@@ -16,16 +16,6 @@ export default class Pokecard extends Component {
             <h6>{item.name}</h6>
           </div>
         </div>
-
-        {/* <div className="card">
-                    <span className="card-id">#{item.id}</span>
-                    <div className="card-image">
-                        <img src={item.image} alt={item.name} />
-                    </div>
-                    <div className="card-body">
-                        <h3 className="card-title">{item.name}</h3>
-                    </div>
-                </div> */}
       </Link>
     );
   }

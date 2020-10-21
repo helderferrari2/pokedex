@@ -5,6 +5,7 @@ import {
 } from "../services/http.service";
 import { fetchEvolutionTree } from "../services/pokemon.service";
 import Badge from "../components/Badge";
+import { Col, Row, Container } from "react-bootstrap";
 import StatsChart from "../components/StatsChart";
 
 export default class Details extends Component {
@@ -28,7 +29,7 @@ export default class Details extends Component {
         let profile = this.prepareProfile(data);
         let types = this.prepareTypes(data);
         let abilities = this.prepareAbilities(data);
-        let stats = data.stats;
+        let stats = this.prepareStats(data);
         this.setState({
           item: { ...this.state.item, profile, types, abilities, stats },
         });
@@ -71,6 +72,13 @@ export default class Details extends Component {
     return r[0].description;
   };
 
+  prepareStats = (data) => {
+    return data.stats.map((item) => ({
+      name: item.stat.name,
+      value: item.base_stat,
+    }));
+  };
+
   render() {
     let {
       profile,
@@ -82,72 +90,86 @@ export default class Details extends Component {
     } = this.state.item;
 
     return (
-      <div className="container">
-        {/* Pokemon Details */}
-        <div className="pokemon-wrapper">
-          <div className="pokemon-image">
-            <img src={profile.image} alt={profile.name} />
-          </div>
-          <div className="pokemon-details">
-            <h1 className="toUpper">
-              #{profile.id} {profile.name}
-            </h1>
-
-            <ul>
-              <li>
-                <strong>Types: </strong>
-                {types.map((item) => (
-                  <Badge key={item} text={item}></Badge>
-                ))}
-              </li>
-              <li>
-                <strong>Characteristic: </strong>
-                {characteristic}
-              </li>
-              <li>
-                <strong>Abilities: </strong>
-                {abilities.join(', ')}
-              </li>
-
-              <li>
-                <strong>Weight: </strong>
-                {profile.weight}
-              </li>
-              <li>
-                <strong>Height: </strong>
-                {profile.height}
-              </li>
-              <li>
-                <strong>Base Experiencie: </strong>
-                {profile.base_experience}
-              </li>
-            </ul>
-          </div>
-
-          {/* Stats */}
-          {Object.values(stats).length > 0 && (
-            <div className="pokemon-stats">
-              <StatsChart stats={stats} />
+      <Container>
+        <Row>
+          <Col lg={4}>
+            <div className="nes-container ">
+              <div className="pokemon-image">
+                <img src={profile.image} alt={profile.name} />
+              </div>
             </div>
+          </Col>
+          <Col lg={8}>
+            <div className="nes-container ">
+              <h3 className="toUpper">
+                #{profile.id} {profile.name}
+              </h3>
+
+              <div className="lists">
+                <ul className="nes-list is-disc">
+                  <li>
+                    <strong>Type: </strong>
+                    {types.map((item) => (
+                      <Badge key={item} text={item}></Badge>
+                    ))}
+                  </li>
+                  <li>
+                    <strong>Abilities: </strong>
+                    {abilities.join(", ")}
+                  </li>
+
+                  <li>
+                    <strong>Weight: </strong>
+                    {profile.weight}
+                  </li>
+                  <li>
+                    <strong>Height: </strong>
+                    {profile.height}
+                  </li>
+                  <li>
+                    <strong>Characteristic: </strong>
+                    {characteristic}
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Col>
+        </Row>
+
+        <Row>
+          {stats.length > 0 && (
+            <Col>
+              <div className="nes-container with-title">
+                <p className="title">Stats</p>
+                <StatsChart stats={stats} />
+              </div>
+            </Col>
           )}
 
-          {/* Evolutions */}
-          {evolutionTree.length > 0 && (
-            <div className="pokemon-evolution">
-              {evolutionTree.map((item) => (
-                <div className="pokemon-evolution-details" key={item.id}>
-                  <img src={item.image} alt={item.id}></img>
-                  <p>#{item.id}</p>
-                  <p>
-                    {" "}
-                    <strong>{item.name}</strong>
-                  </p>
-                </div>
-              ))}
+          <Col>
+            <div className="nes-container with-title pokemon-evolution-tree">
+              <p className="title">Evolutions</p>
+              <Row>
+                {evolutionTree.length > 0 ? (
+                  evolutionTree.map((item) => (
+                    <Col key={item.id}>
+                      <div className="pokemon-evolution-image">
+                        <img src={item.image} alt={item.id}></img>
+                      </div>
+                      <div className="pokemon-evolution-body">
+                        <p>#{item.id}</p>
+                        <p>{item.name}</p>
+                      </div>
+                    </Col>
+                  ))
+                ) : (
+                  <h5>No Evolutions</h5>
+                )}
+              </Row>
             </div>
-          )}
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }

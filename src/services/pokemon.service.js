@@ -7,24 +7,8 @@ import { filter } from 'lodash';
 export const searchKantoPokemon = () => {
     return new Promise((resolve, reject) => {
         let pokemons = kanto_pokemons.map(item => item);
-
-        //https://masteringjs.io/tutorials/lodash/filter
-
         if (Object.keys(pokemons).length > 0) {
             return resolve(pokemons)
-        } else {
-            reject();
-        }
-    });
-}
-
-
-export const getPokemonById = (id) => {
-    return new Promise((resolve, reject) => {
-        let pokemons = kanto_pokemons.map(item => item);
-        let filtered = pokemons.filter(item => item.id === parseInt(id))
-        if (Object.keys(filtered).length > 0) {
-            return resolve(filtered[0])
         } else {
             reject();
         }
