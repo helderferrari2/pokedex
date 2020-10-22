@@ -73,10 +73,18 @@ export default class Details extends Component {
   };
 
   prepareStats = (data) => {
-    return data.stats.map((item) => ({
-      name: item.stat.name,
-      value: item.base_stat,
-    }));
+    return data.stats.map(item => {
+      let name = item.stat.name
+      let value = parseInt(item.base_stat)
+
+      //Split special name
+      if (/^special/.test(name)) {
+        let tmp = name.split('-')
+        name = `sp-${tmp[1]}`
+      }
+
+      return { name, value }
+    })
   };
 
   render() {
@@ -115,7 +123,7 @@ export default class Details extends Component {
                   </li>
                   <li>
                     <strong>Abilities: </strong>
-                    {abilities.join(", ")}
+                    {abilities.join(", ").substring(0, 25) + "..."}
                   </li>
 
                   <li>
@@ -138,7 +146,7 @@ export default class Details extends Component {
 
         <Row>
           {stats.length > 0 && (
-            <Col>
+            <Col lg={4}>
               <div className="nes-container with-title">
                 <p className="title">Stats</p>
                 <StatsChart stats={stats} />
@@ -146,9 +154,9 @@ export default class Details extends Component {
             </Col>
           )}
 
-          <Col>
+          <Col lg={8}>
             <div className="nes-container with-title pokemon-evolution-tree">
-              <p className="title">Evolutions</p>
+              <p className="title">Evolution Tree</p>
               <Row>
                 {evolutionTree.length > 0 ? (
                   evolutionTree.map((item) => (
@@ -163,8 +171,8 @@ export default class Details extends Component {
                     </Col>
                   ))
                 ) : (
-                  <h5>No Evolutions</h5>
-                )}
+                    <h5>No Evolutions</h5>
+                  )}
               </Row>
             </div>
           </Col>
