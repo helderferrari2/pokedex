@@ -19,11 +19,21 @@ export const searchKantoPokemon = () => {
 export const getPokemonsByName = (name) => {
     return new Promise((resolve, reject) => {
         let pokemons = kanto_pokemons.map(item => item);
-
         let filtered = filter(pokemons, function (obj) {
             return obj.name.indexOf(name) !== -1;
         });
+        if (Object.keys(filtered).length > 0) {
+            return resolve(filtered)
+        } else {
+            reject();
+        }
+    });
+}
 
+export const getPokemonsByType = (type) => {
+    return new Promise((resolve, reject) => {
+        let pokemons = kanto_pokemons.map(item => item);
+        let filtered = pokemons.filter(a => a.types.includes(type))
         if (Object.keys(filtered).length > 0) {
             return resolve(filtered)
         } else {
@@ -35,8 +45,6 @@ export const getPokemonsByName = (name) => {
 export const fetchEvolutionTree = (id) => {
     return new Promise((resolve, reject) => {
         let pokemons = evolution_tree.map(item => item);
-
-        // Filter by evolution tree
         pokemons.forEach(item => {
             item.id.forEach(tmp => {
                 if (tmp === parseInt(id)) {
