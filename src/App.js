@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Routes from "./router/routes";
 import "./sass/main.scss";
-import "nes.css/css/nes.min.css";
+
 
 function App() {
   return (

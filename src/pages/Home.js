@@ -62,7 +62,7 @@ export default class Home extends Component {
       <Container>
         {/* Filter */}
         <Row>
-          <Col xs={4}>
+          <Col lg={4}>
             <div className="nes-select">
               <select required id="default_select" onChange={(e) => this.searchPokemonsByType(e.target.value)}>
                 <option value="">All</option>
@@ -74,7 +74,7 @@ export default class Home extends Component {
               </select>
             </div>
           </Col>
-          <Col xs={8}>
+          <Col lg={8}>
             <div className="nes-field">
               <input
                 type="text"
