@@ -8,7 +8,7 @@ import Home from "../pages/Home";
 import Details from "../pages/Details";
 
 const Routes = () => (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/pokemons/:id" component={Details} />
