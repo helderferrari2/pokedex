@@ -88,14 +88,17 @@ export default class Home extends Component {
         </Row>
 
         {/* Pokelist */}
-        <Row>
-          {items.length &&
-            items.map((item) => (
-              <Col key={item.id}>
-                <Pokecard item={item} key={item.id} />
-              </Col>
-            ))}
-        </Row>
+        <div className="pokemon-list">
+          <Row>
+            {items.length &&
+              items.map((item) => (
+                <Col key={item.id}>
+                  <Pokecard item={item} key={item.id} />
+                </Col>
+              ))}
+          </Row>
+        </div>
+
       </Container>
     );
   }
