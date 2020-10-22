@@ -1,0 +1,35 @@
+.pokemon-image {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.pokemon-image img {
+  max-width: 100%;
+}
+
+.pokemon-evolution-image {
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.pokemon-evolution-image img {
+  max-width: 100%;
+}
+
+.lists ul {
+  padding: 0;
+  margin-top: 40px;
+}
+
+.lists li {
+  margin: 15px;
+}
+
+.pokemon-evolution-tree {
+  min-height: 259px;
+  text-align: center;
+}
+
+.pokemon-evolution-body {
+  margin: 10px;
+  font-size: 0.8em;
+}

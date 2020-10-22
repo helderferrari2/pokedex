@@ -1,0 +1,922 @@
+[
+  {
+    "id": [1, 2, 3],
+    "evolution_tree": [
+      {
+        "id": 1,
+        "name": "Bulbasaur",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/1.png"
+      },
+      {
+        "id": 2,
+        "name": "Ivysaur",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/2.png"
+      },
+      {
+        "id": 3,
+        "name": "Venusaur",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/3.png"
+      }
+    ]
+  },
+  {
+    "id": [4, 5, 6],
+    "evolution_tree": [
+      {
+        "id": 4,
+        "name": "Charmander",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/4.png"
+      },
+      {
+        "id": 5,
+        "name": "Charmeleon",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/5.png"
+      },
+      {
+        "id": 6,
+        "name": "Charizard",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/6.png"
+      }
+    ]
+  },
+  {
+    "id": [7, 8, 9],
+    "evolution_tree": [
+      {
+        "id": 7,
+        "name": "Squirtle",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/7.png"
+      },
+      {
+        "id": 8,
+        "name": "Wartortle",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/8.png"
+      },
+      {
+        "id": 9,
+        "name": "Blastoise",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/9.png"
+      }
+    ]
+  },
+  {
+    "id": [10, 11, 12],
+    "evolution_tree": [
+      {
+        "id": 10,
+        "name": "Caterpie",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/10.png"
+      },
+      {
+        "id": 11,
+        "name": "Metapod",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/11.png"
+      },
+      {
+        "id": 12,
+        "name": "Butterfree",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/12.png"
+      }
+    ]
+  },
+  {
+    "id": [13, 14, 15],
+    "evolution_tree": [
+      {
+        "id": 13,
+        "name": "Weedle",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/13.png"
+      },
+      {
+        "id": 14,
+        "name": "Kakuna",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/14.png"
+      },
+      {
+        "id": 15,
+        "name": "Beedrill",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/15.png"
+      }
+    ]
+  },
+  {
+    "id": [16, 17, 18],
+    "evolution_tree": [
+      {
+        "id": 16,
+        "name": "Pidgey",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/16.png"
+      },
+      {
+        "id": 17,
+        "name": "Pidgeotto",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/17.png"
+      },
+      {
+        "id": 18,
+        "name": "Pidgeot",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/18.png"
+      }
+    ]
+  },
+  {
+    "id": [19, 20],
+    "evolution_tree": [
+      {
+        "id": 19,
+        "name": "Rattata",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/19.png"
+      },
+      {
+        "id": 20,
+        "name": "Raticate",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/20.png"
+      }
+    ]
+  },
+  {
+    "id": [21, 22],
+    "evolution_tree": [
+      {
+        "id": 21,
+        "name": "Spearow",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/21.png"
+      },
+      {
+        "id": 22,
+        "name": "Fearow",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/22.png"
+      }
+    ]
+  },
+  {
+    "id": [23, 24],
+    "evolution_tree": [
+      {
+        "id": 23,
+        "name": "Ekans",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/23.png"
+      },
+      {
+        "id": 24,
+        "name": "Arbok",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/24.png"
+      }
+    ]
+  },
+  {
+    "id": [25, 26],
+    "evolution_tree": [
+      {
+        "id": 25,
+        "name": "Pikachu",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/25.png"
+      },
+      {
+        "id": 26,
+        "name": "Raichu",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/26.png"
+      }
+    ]
+  },
+  {
+    "id": [27, 28],
+    "evolution_tree": [
+      {
+        "id": 27,
+        "name": "Sandshrew",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/27.png"
+      },
+      {
+        "id": 28,
+        "name": "Sandslash",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/28.png"
+      }
+    ]
+  },
+  {
+    "id": [29, 30, 31],
+    "evolution_tree": [
+      {
+        "id": 29,
+        "name": "Nidoran ♀ (Female)",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/29.png"
+      },
+      {
+        "id": 30,
+        "name": "Nidorina",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/30.png"
+      },
+      {
+        "id": 31,
+        "name": "Nidoqueen",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/31.png"
+      }
+    ]
+  },
+  {
+    "id": [32, 33, 34],
+    "evolution_tree": [
+      {
+        "id": 32,
+        "name": "Nidoran ♂ (Male)",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/32.png"
+      },
+      {
+        "id": 33,
+        "name": "Nidorino",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/33.png"
+      },
+      {
+        "id": 34,
+        "name": "Nidoking",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/34.png"
+      }
+    ]
+  },
+  {
+    "id": [35, 36],
+    "evolution_tree": [
+      {
+        "id": 35,
+        "name": "Clefairy",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/35.png"
+      },
+      {
+        "id": 36,
+        "name": "Clefable",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/36.png"
+      }
+    ]
+  },
+  {
+    "id": [37, 38],
+    "evolution_tree": [
+      {
+        "id": 37,
+        "name": "Vulpix",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/37.png"
+      },
+      {
+        "id": 38,
+        "name": "Ninetales",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/38.png"
+      }
+    ]
+  },
+  {
+    "id": [39, 40],
+    "evolution_tree": [
+      {
+        "id": 39,
+        "name": "Jigglypuff",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/39.png"
+      },
+      {
+        "id": 40,
+        "name": "Wigglytuff",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/40.png"
+      }
+    ]
+  },
+  {
+    "id": [41, 42],
+    "evolution_tree": [
+      {
+        "id": 41,
+        "name": "Zubat",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/41.png"
+      },
+      {
+        "id": 42,
+        "name": "Golbat",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/42.png"
+      }
+    ]
+  },
+  {
+    "id": [43, 44, 45],
+    "evolution_tree": [
+      {
+        "id": 43,
+        "name": "Oddish",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/43.png"
+      },
+      {
+        "id": 44,
+        "name": "Gloom",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/44.png"
+      },
+      {
+        "id": 45,
+        "name": "Vileplume",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/45.png"
+      }
+    ]
+  },
+  {
+    "id": [46, 47],
+    "evolution_tree": [
+      {
+        "id": 46,
+        "name": "Paras",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/46.png"
+      },
+      {
+        "id": 47,
+        "name": "Parasect",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/47.png"
+      }
+    ]
+  },
+  {
+    "id": [48, 49],
+    "evolution_tree": [
+      {
+        "id": 48,
+        "name": "Venonat",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/48.png"
+      },
+      {
+        "id": 49,
+        "name": "Venomoth",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/49.png"
+      }
+    ]
+  },
+  {
+    "id": [50, 51],
+    "evolution_tree": [
+      {
+        "id": 50,
+        "name": "Diglett",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/50.png"
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/51.png"
+      }
+    ]
+  },
+  {
+    "id": [52, 53],
+    "evolution_tree": [
+      {
+        "id": 52,
+        "name": "Meowth",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/52.png"
+      },
+      {
+        "id": 53,
+        "name": "Persian",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/53.png"
+      }
+    ]
+  },
+  {
+    "id": [54, 55],
+    "evolution_tree": [
+      {
+        "id": 54,
+        "name": "Psyduck",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/54.png"
+      },
+      {
+        "id": 55,
+        "name": "Golduck",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/55.png"
+      }
+    ]
+  },
+  {
+    "id": [56, 57],
+    "evolution_tree": [
+      {
+        "id": 56,
+        "name": "Mankey",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/56.png"
+      },
+      {
+        "id": 57,
+        "name": "Primeape",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/57.png"
+      }
+    ]
+  },
+  {
+    "id": [58, 59],
+    "evolution_tree": [
+      {
+        "id": 58,
+        "name": "Growlithe",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/58.png"
+      },
+      {
+        "id": 59,
+        "name": "Arcanine",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/59.png"
+      }
+    ]
+  },
+  {
+    "id": [60, 61, 62],
+    "evolution_tree": [
+      {
+        "id": 60,
+        "name": "Poliwag",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/60.png"
+      },
+      {
+        "id": 61,
+        "name": "Poliwhirl",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/61.png"
+      },
+      {
+        "id": 62,
+        "name": "Poliwrath",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/62.png"
+      }
+    ]
+  },
+  {
+    "id": [63, 64, 65],
+    "evolution_tree": [
+      {
+        "id": 63,
+        "name": "Abra",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/63.png"
+      },
+      {
+        "id": 64,
+        "name": "Kadabra",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/64.png"
+      },
+      {
+        "id": 65,
+        "name": "Alakazam",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/65.png"
+      }
+    ]
+  },
+  {
+    "id": [63, 64, 65],
+    "evolution_tree": [
+      {
+        "id": 63,
+        "name": "Abra",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/63.png"
+      },
+      {
+        "id": 64,
+        "name": "Kadabra",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/64.png"
+      },
+      {
+        "id": 65,
+        "name": "Alakazam",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/65.png"
+      }
+    ]
+  },
+  {
+    "id": [66, 67, 68],
+    "evolution_tree": [
+      {
+        "id": 66,
+        "name": "Machop",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/66.png"
+      },
+      {
+        "id": 67,
+        "name": "Machoke",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/67.png"
+      },
+      {
+        "id": 68,
+        "name": "Machamp",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/68.png"
+      }
+    ]
+  },
+  {
+    "id": [69, 70, 71],
+    "evolution_tree": [
+      {
+        "id": 69,
+        "name": "Bellsprout",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/69.png"
+      },
+      {
+        "id": 70,
+        "name": "Weepinbell",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/70.png"
+      },
+      {
+        "id": 71,
+        "name": "Victreebel",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/71.png"
+      }
+    ]
+  },
+  {
+    "id": [72, 73],
+    "evolution_tree": [
+      {
+        "id": 72,
+        "name": "Tentacool",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/72.png"
+      },
+      {
+        "id": 73,
+        "name": "Tentacruel",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/73.png"
+      }
+    ]
+  },
+  {
+    "id": [74, 75, 76],
+    "evolution_tree": [
+      {
+        "id": 74,
+        "name": "Geodude",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/74.png"
+      },
+      {
+        "id": 75,
+        "name": "Graveler",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/75.png"
+      },
+      {
+        "id": 76,
+        "name": "Golem",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/76.png"
+      }
+    ]
+  },
+  {
+    "id": [77, 78],
+    "evolution_tree": [
+      {
+        "id": 77,
+        "name": "Ponyta",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/77.png"
+      },
+      {
+        "id": 78,
+        "name": "Rapidash",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/78.png"
+      }
+    ]
+  },
+  {
+    "id": [79, 80],
+    "evolution_tree": [
+      {
+        "id": 79,
+        "name": "Slowpoke",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/79.png"
+      },
+      {
+        "id": 80,
+        "name": "Slowbro",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/80.png"
+      }
+    ]
+  },
+  {
+    "id": [81, 82],
+    "evolution_tree": [
+      {
+        "id": 81,
+        "name": "Magnemite",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/81.png"
+      },
+      {
+        "id": 82,
+        "name": "Magneton",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/82.png"
+      }
+    ]
+  },
+  {
+    "id": [84, 85],
+    "evolution_tree": [
+      {
+        "id": 84,
+        "name": "Doduo",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/84.png"
+      },
+      {
+        "id": 85,
+        "name": "Dodrio",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/85.png"
+      }
+    ]
+  },
+  {
+    "id": [86, 87],
+    "evolution_tree": [
+      {
+        "id": 86,
+        "name": "Seel",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/86.png"
+      },
+      {
+        "id": 87,
+        "name": "Dewgong",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/87.png"
+      }
+    ]
+  },
+  {
+    "id": [88, 89],
+    "evolution_tree": [
+      {
+        "id": 88,
+        "name": "Grimer",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/88.png"
+      },
+      {
+        "id": 89,
+        "name": "Muk",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/89.png"
+      }
+    ]
+  },
+  {
+    "id": [90, 91],
+    "evolution_tree": [
+      {
+        "id": 90,
+        "name": "Shellder",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/90.png"
+      },
+      {
+        "id": 91,
+        "name": "Cloyster",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/91.png"
+      }
+    ]
+  },
+  {
+    "id": [92, 93, 94],
+    "evolution_tree": [
+      {
+        "id": 92,
+        "name": "Gastly",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/92.png"
+      },
+      {
+        "id": 93,
+        "name": "Haunter",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/93.png"
+      },
+      {
+        "id": 94,
+        "name": "Gengar",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/94.png"
+      }
+    ]
+  },
+  {
+    "id": [96, 97],
+    "evolution_tree": [
+      {
+        "id": 96,
+        "name": "Drowzee",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/96.png"
+      },
+      {
+        "id": 97,
+        "name": "Hypno",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/97.png"
+      }
+    ]
+  },
+  {
+    "id": [98, 99],
+    "evolution_tree": [
+      {
+        "id": 98,
+        "name": "Krabby",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/98.png"
+      },
+      {
+        "id": 99,
+        "name": "Kingler",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/99.png"
+      }
+    ]
+  },
+  {
+    "id": [100, 101],
+    "evolution_tree": [
+      {
+        "id": 100,
+        "name": "Voltorb",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/100.png"
+      },
+      {
+        "id": 101,
+        "name": "Electrode",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/101.png"
+      }
+    ]
+  },
+  {
+    "id": [102, 103],
+    "evolution_tree": [
+      {
+        "id": 102,
+        "name": "Exeggcute",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/102.png"
+      },
+      {
+        "id": 103,
+        "name": "Exeggutor",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/103.png"
+      }
+    ]
+  },
+  {
+    "id": [104, 105],
+    "evolution_tree": [
+      {
+        "id": 104,
+        "name": "Cubone",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/104.png"
+      },
+      {
+        "id": 105,
+        "name": "Marowak",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/105.png"
+      }
+    ]
+  },
+  {
+    "id": [109, 110],
+    "evolution_tree": [
+      {
+        "id": 109,
+        "name": "Koffing",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/109.png"
+      },
+      {
+        "id": 110,
+        "name": "Weezing",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/110.png"
+      }
+    ]
+  },
+  {
+    "id": [111, 112],
+    "evolution_tree": [
+      {
+        "id": 111,
+        "name": "Rhyhorn",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/111.png"
+      },
+      {
+        "id": 112,
+        "name": "Rhydon",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/112.png"
+      }
+    ]
+  },
+  {
+    "id": [116, 117],
+    "evolution_tree": [
+      {
+        "id": 116,
+        "name": "Horsea",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/116.png"
+      },
+      {
+        "id": 117,
+        "name": "Seadra",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/117.png"
+      }
+    ]
+  },
+  {
+    "id": [118, 119],
+    "evolution_tree": [
+      {
+        "id": 118,
+        "name": "Goldeen",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/118.png"
+      },
+      {
+        "id": 119,
+        "name": "Seaking",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/119.png"
+      }
+    ]
+  },
+  {
+    "id": [120, 121],
+    "evolution_tree": [
+      {
+        "id": 120,
+        "name": "Staryu",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/120.png"
+      },
+      {
+        "id": 121,
+        "name": "Starmie",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/121.png"
+      }
+    ]
+  },
+  {
+    "id": [129, 130],
+    "evolution_tree": [
+      {
+        "id": 129,
+        "name": "Magikarp",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/129.png"
+      },
+      {
+        "id": 130,
+        "name": "Gyarados",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/130.png"
+      }
+    ]
+  },
+  {
+    "id": [133, 134, 135, 136],
+    "evolution_tree": [
+      {
+        "id": 133,
+        "name": "Eevee",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/133.png"
+      },
+      {
+        "id": 134,
+        "name": "Vaporeon",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/134.png"
+      },
+      {
+        "id": 135,
+        "name": "Jolteon",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/135.png"
+      },
+      {
+        "id": 136,
+        "name": "Flareon",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/136.png"
+      }
+    ]
+  },
+  {
+    "id": [138, 139],
+    "evolution_tree": [
+      {
+        "id": 138,
+        "name": "Omanyte",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/138.png"
+      },
+      {
+        "id": 139,
+        "name": "Omastar",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/139.png"
+      }
+    ]
+  },
+  {
+    "id": [140, 141],
+    "evolution_tree": [
+      {
+        "id": 140,
+        "name": "Kabuto",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/140.png"
+      },
+      {
+        "id": 141,
+        "name": "Kabutops",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/141.png"
+      }
+    ]
+  },
+  {
+    "id": [147, 148, 149],
+    "evolution_tree": [
+      {
+        "id": 147,
+        "name": "Dratini",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/147.png"
+      },
+      {
+        "id": 148,
+        "name": "Dragonair",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/148.png"
+      },
+      {
+        "id": 149,
+        "name": "Dragonite",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/149.png"
+      }
+    ]
+  }
+]

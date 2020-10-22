@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background: $primary;
+  border-top: 5px solid $black;
+}
+
+.footer p {
+  color: $white;
+  text-align: center;
+  padding: 30px;
+}
