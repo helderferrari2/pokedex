@@ -7,7 +7,6 @@ import { fetchEvolutionTree } from "../services/pokemon.service";
 import Badge from "../components/Badge";
 import { Col, Row, Container } from "react-bootstrap";
 import StatsChart from "../components/StatsChart";
-import { act } from "react-dom/test-utils";
 
 export default class Details extends Component {
   state = {
@@ -103,6 +102,10 @@ export default class Details extends Component {
 
       case "next":
         if (id < limit) goTo = ++id;
+        break;
+
+      default:
+        goTo = 1;
         break;
     }
 
