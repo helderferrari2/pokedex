@@ -20,7 +20,7 @@ export const getPokemonsByName = (name) => {
     return new Promise((resolve, reject) => {
         let pokemons = kanto_pokemons.map(item => item);
         let filtered = filter(pokemons, function (obj) {
-            return obj.name.indexOf(name) !== -1;
+            return obj.name.indexOf(name.toLowerCase()) !== -1;
         });
         if (Object.keys(filtered).length > 0) {
             return resolve(filtered)

@@ -55,6 +55,8 @@ export default class Home extends Component {
     }
   };
 
+
+
   render() {
     let { items, pokemonTypes } = this.state;
 
@@ -88,7 +90,7 @@ export default class Home extends Component {
         </Row>
 
         {/* Pokelist */}
-        <Row>
+        <Row className="mt-2">
           {items.length &&
             items.map((item) => (
               <Col key={item.id}>
@@ -96,6 +98,7 @@ export default class Home extends Component {
               </Col>
             ))}
         </Row>
+
       </Container>
     );
   }

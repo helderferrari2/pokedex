@@ -7,6 +7,7 @@ import { fetchEvolutionTree } from "../services/pokemon.service";
 import Badge from "../components/Badge";
 import { Col, Row, Container } from "react-bootstrap";
 import StatsChart from "../components/StatsChart";
+import { act } from "react-dom/test-utils";
 
 export default class Details extends Component {
   state = {
@@ -73,18 +74,39 @@ export default class Details extends Component {
   };
 
   prepareStats = (data) => {
-    return data.stats.map(item => {
-      let name = item.stat.name
-      let value = parseInt(item.base_stat)
+    return data.stats.map((item) => {
+      let name = item.stat.name;
+      let value = parseInt(item.base_stat);
 
       //Split special name
       if (/^special/.test(name)) {
-        let tmp = name.split('-')
-        name = `sp-${tmp[1]}`
+        let tmp = name.split("-");
+        name = `sp-${tmp[1]}`;
       }
 
-      return { name, value }
-    })
+      return { name, value };
+    });
+  };
+
+  handlePreviousNext = (e, action) => {
+    e.preventDefault();
+    let { id } = this.props.match.params;
+
+    let start = 1;
+    let limit = 151;
+    let goTo = 1;
+
+    switch (action) {
+      case "prev":
+        if (id > start) goTo = --id;
+        break;
+
+      case "next":
+        if (id < limit) goTo = ++id;
+        break;
+    }
+
+    window.location.pathname = `/pokemons/${goTo}`;
   };
 
   render() {
@@ -99,6 +121,26 @@ export default class Details extends Component {
 
     return (
       <Container>
+        <Row>
+          <Col className="d-flex justify-content-start">
+            <button
+              type="button"
+              className="nes-btn"
+              onClick={(e) => this.handlePreviousNext(e, "prev")}
+            >
+              {"<"} Prev
+            </button>
+          </Col>
+          <Col className="d-flex justify-content-end">
+            <button
+              type="button"
+              className="nes-btn"
+              onClick={(e) => this.handlePreviousNext(e, "next")}
+            >
+              Next{">"}
+            </button>
+          </Col>
+        </Row>
         <Row>
           <Col lg={4}>
             <div className="nes-container ">
@@ -171,8 +213,8 @@ export default class Details extends Component {
                     </Col>
                   ))
                 ) : (
-                    <h5>No Evolutions</h5>
-                  )}
+                  <h5>No Evolutions</h5>
+                )}
               </Row>
             </div>
           </Col>
