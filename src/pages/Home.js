@@ -55,6 +55,8 @@ export default class Home extends Component {
     }
   };
 
+
+
   render() {
     let { items, pokemonTypes } = this.state;
 

@@ -18,7 +18,6 @@ const imageUrl = "https://pokeres.bastionbot.org/images/pokemon/";
  * Search Pokemon Details By Id
  */
 export const apiFetchPokemonDetails = (id) => {
-
     return new Promise((resolve, reject) => {
         return api.get(`https://pokeapi.co/api/v2/pokemon/${id}`)
             .then(res => {
@@ -32,7 +31,6 @@ export const apiFetchPokemonDetails = (id) => {
  * Search Pokemon Characteristic 
  */
 export const apiFetchPokemonCharacteristic = (id) => {
-
     return new Promise((resolve, reject) => {
         return api.get(`https://pokeapi.co/api/v2/characteristic/${id}`)
             .then(response => resolve(response))
